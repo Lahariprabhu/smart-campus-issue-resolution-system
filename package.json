@@ -1,0 +1,24 @@
+{
+  "name": "vibe_coding",
+  "version": "1.0.0",
+  "description": "Smart Campus Issue Reporting and Resolution System",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "playwright test"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "express": "^5.1.0",
+    "multer": "^2.0.2",
+    "sqlite3": "^5.1.7"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^22.20.2"
+  }
+}
